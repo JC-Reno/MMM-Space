@@ -1,5 +1,5 @@
-# Module: MMM-Space
-The `MMM-Space` module is a third party module for the MagicMirror universe.
+# Module: MMM-SpaceBlock
+The `MMM-SpaceBlock` module is a third party module for the MagicMirror universe.
 This module displays a background-colored 'div' element to let you insert a static vertical space between other modules.
 
 ## Screenshot
@@ -11,7 +11,7 @@ To use this module, add it to the modules array in the `config/config.js` file:
 ````javascript
 modules: [
 	{
-		module: "MMM-Space",
+		module: "MMM-SpaceBlock",
 		position: "top_left",	// This can be any of the regions.
 		config: {
 			// The config property is optional.
@@ -28,7 +28,7 @@ The following properties can be configured:
 | Option            | Description
 | ----------------- | -----------
 | `verticalSpace`   | Definition of the height of the static space, e.g. as pixels. <br><br> **Possible values:** `40px`, `100px`, ... <br> **Default value:** `40px`
-| `horizontalSpace` | Definition of the width of the static space, e.g. as pixels. <br><br> **Possible values:** `40px`, `100px`, ... <br> **Default value:** `0px`
+| `horizontalSpace` | Definition of the width of the static space, e.g. as pixels. <br><br> **Possible values:** `40px`, `100px`, ... <br> **Default value:** `40px`
 | `backgroundColor` | Definition of the background color, usually left blank. <br><br> **Possible values:** HEX-coded RGB values, `"#FF0000"` <br> **Default value:** `"transparent"`
 
 ## Notifications

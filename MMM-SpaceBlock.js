@@ -1,9 +1,9 @@
 /* Magic Mirror
- * Module: Space
- * By Linus
+ * Module: SpaceBlock
+ * forked from Linus
  */
 
-Module.register("MMM-Space",{
+Module.register("MMM-SpaceBlock",{
 	defaults: {
 		verticalSpace: "40px",
 		horizontalSpace: "40px",
